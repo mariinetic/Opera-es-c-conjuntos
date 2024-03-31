@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px auto; 
+  padding: 0;
+  background-color: pink;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto; 
+  padding: 20px;
+  text-align: center;
+}
+
+label, input {
+  display: block;
+  margin: 5px auto; 
+  width: calc(100% - 10px);
+  padding: 5px;
+}
+
+button {
+  display: block;
+  margin: 10px auto 5px; 
+  padding: 10px 20px;
+  background-color: #ffcccc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffb3b3;
+}
+
+#resultado {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
